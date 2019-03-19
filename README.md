@@ -9,7 +9,7 @@ It can show a rough image of the wave.
 Theoretically, it can run under any version of Arduino and any version of Python.
 
 ## Known fact
-When i add the speed and point it will not be real-time. The bottle-neck seems to be the plotting speed of matplotlib. 
+When i add the speed and points it will not be real-time. The bottle-neck seems to be the plotting speed of matplotlib. 
 The Baud rate supported by Arduino can be up to 2000000. So there's possibility to improve sample rate.
 
 I've test it in a Baud rate of 115200. At this Baud rate, the oscilloscope can work at around 2kHz. 
