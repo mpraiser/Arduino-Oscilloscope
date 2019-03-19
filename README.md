@@ -9,6 +9,10 @@ It can show a rough image of the wave.
 
 Theoretically, it can run under any version of Arduino and any version of Python.
 
+## How to start
+1. Upload [Arduino-Oscilloscope.ino](Arduino-Oscilloscope.ino) to Arduino.
+2. Run [monitor.py](monitor.py).
+
 ## Known fact
 When i add the speed and points it will not be real-time. The bottle-neck seems to be the plotting speed of matplotlib. 
 The Baud rate supported by Arduino can be up to 2000000. So there's possibility to improve sample rate.
