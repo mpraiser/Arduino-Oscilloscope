@@ -6,6 +6,7 @@ It can show a rough image of the wave.
 ## Environment
 1. Arduino UNO
 2. Python 3.6.5
+
 Theoretically, it can run under any version of Arduino and any version of Python.
 
 ## Known fact
