@@ -11,13 +11,15 @@ Theoretically, it can run under any version of Arduino and any version of Python
 
 ## How to start
 1. Upload [Arduino-Oscilloscope.ino](Arduino-Oscilloscope.ino) to Arduino.
-2. Run [monitor.py](monitor.py).
+2. Connect Pin 2 and Pin 3. Use Pin A0 as an input.
+3. Run [monitor.py](monitor.py).
 
 ## Known fact
 When i add the speed and points it will not be real-time. The bottle-neck seems to be the plotting speed of matplotlib. 
 The Baud rate supported by Arduino can be up to 2000000. So there's possibility to improve sample rate.
 
-I've test it in a Baud rate of 115200. At this Baud rate, the oscilloscope can work at around 2kHz. 
+I've test it in a Baud rate of 115200. At this Baud rate, the oscilloscope can work at around 2kHz.
+Present max sample rate without plotting can be 8kHz.
 
 ## TODO
 Add easy control of x range and y range.
